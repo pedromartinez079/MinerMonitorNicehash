@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MinerMonitorNicehash</string>
+    <string name="rigsText_string">Mining Rigs Information...</string>
+    <string name="riginfoButton_string">Get Information</string>
+    <string name="scanButton_string">Scan QR Wallet Address</string>
+    <string name="savewalletCheckBox_string">Save Wallet</string>
+</resources>
