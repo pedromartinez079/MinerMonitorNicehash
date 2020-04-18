@@ -93,8 +93,10 @@ public class MainActivity extends AppCompatActivity {
 
         final RequestQueue queue = Volley.newRequestQueue(this);
         final String urlbase = "https://api2.nicehash.com/main/api/v2/mining/external/";
-        final String urlrigs = "/rigs/";
+        //final String urlrigs = "/rigs/";
+        final String urlrigs = "/rigs2/";
         final String urlstats = "/rigs/stats/unpaid/";
+        //final String urlstats = "/rigs2/stats/unpaid/";
         final String urlalgorithms = "https://api2.nicehash.com/main/api/v2/mining/algorithms/";
         final Gson gson = new Gson();
         final ArrayList<Map> miningAlgorithms = new ArrayList<Map>();
@@ -385,7 +387,7 @@ public class MainActivity extends AppCompatActivity {
                 // do your code
                 AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
                 alertDialog.setTitle("About...");
-                alertDialog.setMessage("Developed by MadeInPeru\nLima, January 2020\n\nPedro L. Martinez La Rosa");
+                alertDialog.setMessage("Version 1.1\nDeveloped by MadeInPeru\nLima, January 2020\n\nPedro L. Martinez La Rosa");
                 alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
