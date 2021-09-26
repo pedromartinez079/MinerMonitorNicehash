@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
             riginfoTV.setText("Please scan your Nicehash wallet QR code");
             riginfobutton.setEnabled(false);
             walletaddress = "";
-            //walletaddress = "38ZyEvrzknS2A9hLftqms7GBX9jPQxVpGk";
+            //walletaddress = "TESTWALLET";
         } else {
             walletaddress = wallet;
             riginfoTV.setText("Please push Get Information button");
